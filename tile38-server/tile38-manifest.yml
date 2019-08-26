@@ -1,0 +1,29 @@
+kind: InternalService
+name: tile38
+spec:
+  image: tile38/tile38:latest
+  image_pull_policy: IfNotPresent
+  replicas: 1
+
+  port_mapping:
+    - port: 9851
+      target_port: 9851
+
+  resources:
+    memory: 256Mi # As much as you want to store
+
+  liveness_probe:
+    initial_delay_seconds: 12
+    period_seconds: 60
+    timeout_seconds: 5
+    http_get:
+      path: "/PING"
+      port: 80
+
+  readiness_probe:
+    initial_delay_seconds: 5
+    period_seconds: 10
+    timeout_seconds: 5
+    http_get:
+      path: "/PING"
+      port: 80
