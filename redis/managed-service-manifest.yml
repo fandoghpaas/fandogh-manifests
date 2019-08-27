@@ -1,0 +1,13 @@
+kind: ManagedService
+name: redis
+spec:
+  service_name: redis
+  version: 5.0.3
+  parameters:
+    - name: redis_password
+      value: ${PASSWORD}
+    - name: volume_name
+      value: ${VOLUME}
+
+  resources:
+      memory: 256Mi
