@@ -3,7 +3,6 @@ name: redis
 spec:
   image: library/redis:latest
   image_pull_policy: IfNotPresent
-  replicas: 1
   
   port_mapping:
     - port: 6379
