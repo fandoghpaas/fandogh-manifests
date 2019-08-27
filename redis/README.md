@@ -12,7 +12,7 @@ There are two ways to deploy redis on fandogh.
 $ fandogh service apply -f managed-service-manifest.yml -p PASSWORD="<strong password>" -p VOLUME="<volume name (for persistence)>"
 ```
 
-#### Manual Internal Service
+#### Unmanaged Internal Service
 
 ```
 $ fandogh service apply -f redis-manifest.yml
