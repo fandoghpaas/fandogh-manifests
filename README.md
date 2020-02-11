@@ -7,12 +7,12 @@ this way users can decide which manifest will suit their issue the best in secon
 
 | Category| Link | Category| Link |
 |--- |--- |--- |--- |
-| Database| [Click](https://github.com/fandoghpaas/fandogh-manifests/tree/enhancement/readme/Database) | Admin Dashboards| [Click](https://github.com/fandoghpaas/fandogh-manifests/tree/enhancement/readme/Admin%20Dashboards) |
-| Object Storage| [Click](https://github.com/fandoghpaas/fandogh-manifests/tree/enhancement/readme/Object%20Storage) | Monitoring| [Click](https://github.com/fandoghpaas/fandogh-manifests/tree/enhancement/readme/Monitoring) |
-| Analytics| [Click](https://github.com/fandoghpaas/fandogh-manifests/tree/enhancement/readme/Analytics) | API Gateway| [Click](https://github.com/fandoghpaas/fandogh-manifests/tree/enhancement/readme/API%20Gateway) |
-| Security| [Click](https://github.com/fandoghpaas/fandogh-manifests/tree/enhancement/readme/Security) | Storage| [Click](https://github.com/fandoghpaas/fandogh-manifests/tree/enhancement/readme/minio-storage) |
-| Message Broker| [Click](https://github.com/fandoghpaas/fandogh-manifests/tree/enhancement/readme/Message%20Broker) | Messaging| [Click](https://github.com/fandoghpaas/fandogh-manifests/tree/enhancement/readme/Messaging) |
-| File Manager| [Click](https://github.com/fandoghpaas/fandogh-manifests/tree/enhancement/readme/File%20Manager) |||
+| Database| [Click](https://github.com/fandoghpaas/fandogh-manifests/tree/master/Database) | Admin Dashboards| [Click](https://github.com/fandoghpaas/fandogh-manifests/tree/master/Admin%20Dashboards) |
+| Object Storage| [Click](https://github.com/fandoghpaas/fandogh-manifests/tree/master/Object%20Storage) | Monitoring| [Click](https://github.com/fandoghpaas/fandogh-manifests/tree/master/Monitoring) |
+| Analytics| [Click](https://github.com/fandoghpaas/fandogh-manifests/tree/master/Analytics) | API Gateway| [Click](https://github.com/fandoghpaas/fandogh-manifests/tree/master/API%20Gateway) |
+| Security| [Click](https://github.com/fandoghpaas/fandogh-manifests/tree/master/Security) | Storage| [Click](https://github.com/fandoghpaas/fandogh-manifests/tree/master/Storage) |
+| Message Broker| [Click](https://github.com/fandoghpaas/fandogh-manifests/tree/master/Message%20Broker) | Messaging| [Click](https://github.com/fandoghpaas/fandogh-manifests/tree/master/Messaging) |
+| File Manager| [Click](https://github.com/fandoghpaas/fandogh-manifests/tree/master/File%20Manager) |||
 
 > Note, this table is under improvement and more categories will be added; So feel free to make request for other categories.
 
