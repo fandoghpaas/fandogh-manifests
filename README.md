@@ -23,10 +23,10 @@ You can contribute and share your fandogh manifests with other users to provide 
 
 ### Steps
 1) Create a [manifest](https://docs.fandogh.cloud/docs/service-manifest.html) and test it with [fandogh-cli](https://docs.fandogh.cloud/docs/getting-started.html)
-2) After successful deployment, make a fork.
+2) After successful deployment, make a fork
 3) Make a folder with service name
-4) Create a README.md file, with brief description about the service that you provided its manifest and its config.
-5) Remove real values and credentials from manifest and replace them with general value like -> name: SERVICE_NAME
+4) Create a `README.md` file, with brief description about the service that you provided its manifest and its config
+5) Remove real values and credentials from manifest and replace them with general value like -> `name: SERVICE_NAME`
 6) Put the manifest in created folder
 7) Create merge request and we will be happy to accept :) 
 
