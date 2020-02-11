@@ -5,6 +5,7 @@ MySQL is the world's most popular open source database. With its proven performa
 ## Variable Table
 
 >  **Before deployment** value of `variables` mentioned in this table should be overwritten with values of your choice.
+
 |Variable | Description |
 |--- |--- |
 |**MYSQL_ROOT_PASSWORD** | Password of your choice for MySQL
