@@ -1,22 +1,22 @@
-kind: InternalService
-name: mongodb
+kkind: InternalService
+name: SERVICE_NAME
 spec:
   image: library/mongo:latest
   image_pull_policy: IfNotPresent
   env:
     - name: MONGO_INITDB_ROOT_USERNAME
-      value: root
+      value: MONGO_USERNAME
     - name: MONGO_INITDB_ROOT_PASSWORD
-      value: "A_COMPLEX_PASSWORD"
+      value: STRONG_PASSWORD
     - name: MONGO_INITDB_DATABASE
-      value: main
+      value: INIT_DATABASE_NAME
   port_mapping:
     - port: 27017
       target_port: 27017
       
   resources:
-    memory: 512Mi
+    memory: 2048Mi
   volume_mounts:
    - mount_path: /data/db
-     sub_path: mongodb
-     volume_name: mongodb-volume
+     sub_path: SUB_PATH
+     volume_name: VOLUME_NAME
