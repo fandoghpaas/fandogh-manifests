@@ -1,10 +1,8 @@
 kind: InternalService
-name: tile38
+name: SERVICE_NAME
 spec:
   image: tile38/tile38:latest
   image_pull_policy: IfNotPresent
-  replicas: 1
-
   port_mapping:
     - port: 9851
       target_port: 9851
