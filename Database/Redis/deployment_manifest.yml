@@ -11,9 +11,13 @@ spec:
   port_mapping:
    - target_port: 6379
      port: 6379
-  volume_mounts:
-   - mount_path: /bitnami/redis/data
-     sub_path: SUB_PATH
-     volume_name: VOLUME_NAME
+
+# if you need to persist redis data, uncomment this part
+# 
+#  volume_mounts:
+#   - mount_path: /bitnami/redis/data
+#     sub_path: SUB_PATH
+#     volume_name: VOLUME_NAME
+
   resources:
     memory: 512Mi
