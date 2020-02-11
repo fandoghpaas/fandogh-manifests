@@ -1,0 +1,11 @@
+kind: InternalService
+name: mysql
+spec:
+  image: library/mysql:5.7
+  image_pull_policy: Always
+  env:
+   - name: MYSQL_ROOT_PASSWORD
+     value: root
+  port_mapping:
+   - port: 3306
+     target_port: 3306
