@@ -1,7 +1,5 @@
 # File Browser
 **File Browser** provides a file managing interface within a specified directory and it can be used to upload, delete, preview, rename and edit your files. It allows the creation of multiple users and each user can have its own directory. It can be used as a standalone app or as a middleware.
-<br/><br/>
-Please check the  [main repository](https://github.com/filebrowser/filebrowser)  for more info.
 
 ## Variable Table
 >  **Before deployment** value of `variables` mentioned in this table should be overwritten with values of your choice.
