@@ -1,0 +1,16 @@
+kind: InternalService
+name: SERVICE_NAME
+spec:
+  image: _/postgres:12.1
+  image_pull_policy: Always
+  env:
+   - name: POSTGRES_PASSWORD
+     value: STRONG_PASSWORD
+  port_mapping:
+   - port: 5432
+     target_port: 5432
+  volume_mounts:
+   - mount_path: /var/lib/postgresql/data
+     sub_path: SUB_PATH
+  resources:
+    memory: 400Mi
