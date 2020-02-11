@@ -1,5 +1,5 @@
 # Fandogh Manifests
-Curated list of fandogh paas manifests for commonly used services.
+Curated list of [Fandogh PaaS](https://fandogh.cloud) manifests for commonly used services.
 
 ## Table of Manifest Categories
 As you can see, we have categorized each manifest to its related parent.\
