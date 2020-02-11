@@ -7,7 +7,6 @@
 |Variable | Description |
 |--- |--- |
 |**SERVICE_NAME** | Choose a name for your Droppy service
-|**SUB_PATH** | Choose a name for your Droppy service
 
 ## Deploying with [fandogh-cli](https://docs.fandogh.cloud/docs/service-manifest.html#%D9%85%D8%A7%D9%86%DB%8C%D9%81%D8%B3%D8%AA-%D8%B3%D8%B1%D9%88%DB%8C%D8%B3-%DA%86%DB%8C%D8%B3%D8%AA)
 ```
