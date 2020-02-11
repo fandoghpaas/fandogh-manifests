@@ -1,0 +1,19 @@
+kind: InternalService
+name: SERVICE_NAME
+spec:
+  image: bitnami/redis:5.0.3
+  image_pull_policy: Always
+  env:
+   - name: ALLOW_EMPTY_PASSWORD
+     value: yes/no # if you don't want to use password for your service, put 'yes' as value
+   - name: REDIS_PASSWORD
+     value: STRONG_PASSWORD
+  port_mapping:
+   - target_port: 6379
+     port: 6379
+  volume_mounts:
+   - mount_path: /bitnami/redis/data
+     sub_path: SUB_PATH
+     volume_name: VOLUME_NAME
+  resources:
+    memory: 512Mi
