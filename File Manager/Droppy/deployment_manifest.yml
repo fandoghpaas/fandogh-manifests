@@ -1,0 +1,13 @@
+kind: ExternalService
+name: droppy
+spec:
+  image: silverwind/droppy
+  image_pull_policy: Always
+  port: 8989
+  allow_http: false
+  volume_mounts:
+    - mount_path: /files
+    - mount_path: /config
+      sub_path: 'files/conf'
+  resources:
+    memory: 512Mi
