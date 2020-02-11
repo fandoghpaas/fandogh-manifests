@@ -1,0 +1,10 @@
+kind: ExternalService
+name: SERVICE_NAME
+spec:
+  image: fandoghpaas/filebrowser
+  volume_mounts:
+    - mount_path: /srv
+    - mount_path: /conf
+      sub_path: 'files/conf'
+  resource:
+    memory: 400Mi
