@@ -12,7 +12,7 @@ Adminer got some attention in 2008 when it made it to the CCA finals at SourceFo
 |**DATABASE_SERVICE_NAME** | Name of the database service
 
 ## Managed Service
-You can also skip deploying `Adminer` from manifest and start using [Fandogh Managed Service](https://docs.fandogh.cloud/docs/mongodb-managed-service.html) with few clicks.
+You can also skip deploying `Adminer` from manifest and start using [Fandogh Managed Service](https://docs.fandogh.cloud/docs/postgresql-managed-service.html) with few clicks.
 
 ## Deploying with [fandogh-cli](https://docs.fandogh.cloud/docs/service-manifest.html#%D9%85%D8%A7%D9%86%DB%8C%D9%81%D8%B3%D8%AA-%D8%B3%D8%B1%D9%88%DB%8C%D8%B3-%DA%86%DB%8C%D8%B3%D8%AA)
 ```
