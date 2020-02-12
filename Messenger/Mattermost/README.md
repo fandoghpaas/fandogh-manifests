@@ -15,9 +15,6 @@
 |**DATABASE_NAME** | Database name
 |**VOLUME_NAME** | Name of volume to persist Mattermost data
 
-## Managed Service
-You can also skip deploying `Mattermost` from manifest and start using [Fandogh Managed Service](https://docs.fandogh.cloud/docs/mongodb-managed-service.html) with few clicks.
-
 ## Deploying with [fandogh-cli](https://docs.fandogh.cloud/docs/service-manifest.html#%D9%85%D8%A7%D9%86%DB%8C%D9%81%D8%B3%D8%AA-%D8%B3%D8%B1%D9%88%DB%8C%D8%B3-%DA%86%DB%8C%D8%B3%D8%AA)
 
 ### Database
