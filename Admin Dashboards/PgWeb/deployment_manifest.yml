@@ -1,0 +1,12 @@
+kind: ExternalService
+name: SERVICE_NAME
+spec:
+  image: sosedoff/pgweb:latest
+  port: 8081
+  allow_http: false
+  env:
+    - name: DATABASE_URL
+      value: DATABASE_URL
+      hidden: true
+  resources:
+    memory: 512Mi
