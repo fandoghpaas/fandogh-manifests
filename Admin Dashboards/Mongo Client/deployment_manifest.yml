@@ -11,7 +11,7 @@ spec:
    - name: MONGOCLIENT_USERNAME
      value: USERNAME
    - name: MONGOCLIENT_PASSWORD
-     value: STRING_PASSWORD
+     value: STRONG_PASSWORD
    - name: MONGO_URL
      value: DATABASE_URL
   volume_mounts:
