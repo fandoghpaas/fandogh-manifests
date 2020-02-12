@@ -24,3 +24,5 @@ spec:
     - mount_path: /mattermost/plugins
       sub_path: chat/plugins
       volume_name: VOLUME_NAME
+  resources:
+    memory: 1024Mi
