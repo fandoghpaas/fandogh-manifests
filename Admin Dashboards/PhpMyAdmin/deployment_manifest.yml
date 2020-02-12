@@ -1,0 +1,11 @@
+kind: ExternalService
+name: SERVICE_NAME
+spec:
+  image: fandoghpaas/phpmyadmin:latest
+  image_pull_policy: Always
+  allow_http: false
+  env:
+   - name: PMA_HOST
+     value: MYSQL_SERVICE_NAME
+  resources:
+    memory: 512Mi
