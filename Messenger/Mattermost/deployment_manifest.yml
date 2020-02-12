@@ -3,6 +3,7 @@ name: SERVICE_NAME
 spec:
   image: mattermost/mattermost-prod-app:5.6.1
   port: 8000
+  allow_http: false
   env:
     - name: DB_HOST
       value: DATABASE_SERVICE_NAME

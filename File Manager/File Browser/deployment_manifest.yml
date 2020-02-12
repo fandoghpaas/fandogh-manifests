@@ -2,6 +2,7 @@ kind: ExternalService
 name: SERVICE_NAME
 spec:
   image: fandoghpaas/filebrowser
+  allow_http: false
   volume_mounts:
     - mount_path: /srv
     - mount_path: /conf
