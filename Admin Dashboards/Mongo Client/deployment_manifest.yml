@@ -1,0 +1,21 @@
+kind: ExternalService
+name: SERVICE_NAME
+spec:
+  image: mongoclient/mongoclient:latest
+  image_pull_policy: Always
+  port: 3000
+  allow_http: false
+  env:
+   - name: MONGOCLIENT_AUTH
+     value: 'true'
+   - name: MONGOCLIENT_USERNAME
+     value: USERNAME
+   - name: MONGOCLIENT_PASSWORD
+     value: STRING_PASSWORD
+   - name: MONGO_URL
+     value: DATABASE_URL
+  volume_mounts:
+   - mount_path: /dump_files
+     sub_path: dump_files
+  resources:
+    memory: 1024Mi
