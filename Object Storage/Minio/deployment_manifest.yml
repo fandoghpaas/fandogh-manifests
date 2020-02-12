@@ -1,0 +1,28 @@
+kind: ExternalService
+name: SERVICE_NAME
+spec:
+  image: minio/minio:latest
+  image_pull_policy: Always  
+  port: 9000
+
+  env:
+    - name: MINIO_ACCESS_KEY
+      value: ACCESS_KEY    
+    - name: MINIO_SECRET_KEY
+      value: SECRET_KEY
+
+  volume_mounts:
+    - mount_path: /minio
+      sub_path: SUB_PATH
+      volume_name: MINIO_VOLUME
+    
+    - mount_path: /root/.minio
+      sub_path: minio
+      volume_name: MINIO_VOLUME
+
+  command_args:
+    - server
+    - "/minio"
+
+  resources:
+    memory: 1024Mi
