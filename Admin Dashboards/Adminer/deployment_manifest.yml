@@ -1,9 +1,10 @@
 kind: ExternalService
 name: SERVICE_NAME
 spec:
-  image: _/adminer:latest
+  image: fandoghpaas/adminer:latest
   image_pull_policy: Always
   port: 8080
+  allow_http: false
   env:
    - name: ADMINER_DEFAULT_SERVER
      value: DATABASE_SERVICE_NAME
