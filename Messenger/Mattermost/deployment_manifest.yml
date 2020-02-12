@@ -1,0 +1,26 @@
+kind: ExternalService
+name: SERVICE_NAME
+spec:
+  image: mattermost/mattermost-prod-app:5.6.1
+  port: 8000
+  env:
+    - name: DB_HOST
+      value: DATABASE_SERVICE_NAME
+    - name: DB_PORT
+      value: DATABASE_SERVICE_PORT # 5432 for PostgreSQL and 3306 for MySQL 
+    - name: MM_USERNAME
+      value: DATABASE_USERNAME
+    - name: MM_PASSWORD
+      value: DATABASE_PASSWORD
+    - name: MM_DBNAME
+      value: DATABASE_NAME
+  volume_mounts:
+    - mount_path: /mattermost/data
+      sub_path: chat/data
+      volume_name: VOLUME_NAME
+    - mount_path: /mattermost/logs
+      sub_path: chat/logs
+      volume_name: VOLUME_NAME
+    - mount_path: /mattermost/plugins
+      sub_path: chat/plugins
+      volume_name: VOLUME_NAME
