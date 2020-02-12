@@ -1,0 +1,11 @@
+kind: ExternalService
+name: SERVICE_NAME
+spec:
+  image: _/adminer:latest
+  image_pull_policy: Always
+  port: 8080
+  env:
+   - name: ADMINER_DEFAULT_SERVER
+     value: DATABASE_SERVICE_NAME
+  resources:
+    memory: 512Mi
