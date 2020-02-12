@@ -11,7 +11,7 @@ this way users can decide which manifest will suit their issue the best in secon
 | Object Storage| [Click](https://github.com/fandoghpaas/fandogh-manifests/tree/master/Object%20Storage) | Monitoring| [Click](https://github.com/fandoghpaas/fandogh-manifests/tree/master/Monitoring) |
 | Analytics| [Click](https://github.com/fandoghpaas/fandogh-manifests/tree/master/Analytics) | API Gateway| [Click](https://github.com/fandoghpaas/fandogh-manifests/tree/master/API%20Gateway) |
 | Security| [Click](https://github.com/fandoghpaas/fandogh-manifests/tree/master/Security) | Storage| [Click](https://github.com/fandoghpaas/fandogh-manifests/tree/master/Storage) |
-| Message Broker| [Click](https://github.com/fandoghpaas/fandogh-manifests/tree/master/Message%20Broker) | Messaging| [Click](https://github.com/fandoghpaas/fandogh-manifests/tree/master/Messaging) |
+| Message Broker| [Click](https://github.com/fandoghpaas/fandogh-manifests/tree/master/Message%20Broker) | Messenger| [Click](https://github.com/fandoghpaas/fandogh-manifests/tree/master/Messenger) |
 | File Manager| [Click](https://github.com/fandoghpaas/fandogh-manifests/tree/master/File%20Manager) |||
 
 > Note, this table is under improvement and more categories will be added; So feel free to make request for other categories.
