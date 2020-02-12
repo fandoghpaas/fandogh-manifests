@@ -1,4 +1,4 @@
-k# Object Storage
+# Object Storage
 
 In this directory we will store `Object Storage` service manifests, folder separated.
 
