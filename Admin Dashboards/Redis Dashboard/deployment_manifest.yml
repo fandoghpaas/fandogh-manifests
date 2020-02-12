@@ -1,0 +1,22 @@
+kind: ExternalService
+name: SERVICE_NAME
+spec:
+  image: rediscommander/redis-commander:latest
+  image_pull_policy: Always
+  allow_http: false
+  env:
+   - name: REDIS_HOST
+     value: REDIS_SERVICE_NAME
+   - name: HTTP_USER
+     value: USERNAME
+   - name: HTTP_PASSWORD
+     value: STRONG_PASSWORD
+   - name: REDIS_PORT
+     value: 6379
+   - name: REDIS_PASSWORD
+     value: REDIS_SERVICE_PASSWORD
+   - name: K8S_SIGTERM
+     value: 1
+  port: 8081
+  resources:
+   memory: 1024Mi
