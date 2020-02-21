@@ -10,7 +10,7 @@ spec:
    - port: 3306
      target_port: 3306
   volume_mounts:
-   - mount_path: mountPath: /var/lib/mysql
+   - mount_path: /var/lib/mysql
      sub_path: SUB_PATH
   resources:
     memory: 400Mi
